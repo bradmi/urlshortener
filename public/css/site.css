@@ -1,0 +1,34 @@
+body, td { font-family: Arial; }
+
+#header {
+	border-bottom: 1px solid red;
+	padding: .25em .5em .25em .25em;
+	height: 1.8em;
+}
+
+#header h1 { font-size: 1.7em; margin:0; padding:0; float:left; }
+#headerLinks  { float:right; padding-top: 0.5em; color: Gray; }
+    #headerLinks a { margin: 0 .5em 0 .5em; font-weight: bold; text-decoration:none; color: Black; }
+    #headerLinks a:hover { text-decoration: underline; }
+#stats-box { margin:auto; margin-bottom: 1em; width:15em; background-color: #FF6633; color: White; text-align:center; padding: 0.25em 0 0.2em 0; border-radius: 0.8em; }
+    #stats-box #num-urls { font-weight: bold; }
+
+.shorten-url-form {
+	background-color: gray;
+	margin: 1em;
+	padding: 1em;
+	color: White;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -19em;
+    border-radius: 0.5em;
+}
+.shorten-url-form h3 { margin: 0 0 0.5em 0 }
+.shorten-url-form input, .shorten-url-form button { font-size: 130% }
+.shorten-url-form input[type=text] { width: 20em; }
+.shorten-url-form button { width: 7em; padding-left: 1em; padding-right: 1em; }
+
+.results-container { text-align:center; margin-top: 2em; }
+    .results-container .result { margin-top: 0.7em; }
+        .results-container .result a { font-size: 1.6em; border-top: 2px solid gray; border-bottom: 2px solid gray; padding: 0.1em 0.6em 0.1em 0.6em; text-decoration:none; font-weight:bold; }

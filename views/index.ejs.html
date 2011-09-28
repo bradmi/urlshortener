@@ -1,0 +1,11 @@
+﻿<% locals.pageTitle = "Home page"; %>
+
+<div id="stats-box">
+    Now shortening <span id="num-urls"><%= numUrls %></span> URLs!
+</div> 
+
+<form class="shorten-url-form" action="/submitUrl" method="post">
+    <h3>Enter a URL to shorten:</h3>
+    <input type="text" name="urlToShorten" />
+    <button type="submit">Shorten it</button>
+</form>
